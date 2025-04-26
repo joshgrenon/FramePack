@@ -1,0 +1,23 @@
+build:
+  gpu: true
+  python_version: "3.10"
+  python_packages:
+    - torch
+    - torchvision
+    - numpy==1.26.2
+    - opencv-contrib-python
+    - einops
+    - accelerate==1.6.0
+    - transformers==4.46.2
+    - diffusers==0.33.1
+    - sentencepiece==0.2.0
+    - pillow==11.1.0
+    - av==12.1.0
+    - scipy==1.12.0
+    - requests==2.31.0
+    - torchsde==0.2.6
+    - safetensors
+    - imageio==2.34.0
+    - packaging
+
+predict: "predict.py:Predictor"
